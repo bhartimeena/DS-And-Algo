@@ -1,0 +1,1 @@
+{"name":"Local: Subarraywithgivensum","url":"d:\\DS-And-Algo\\ArrayProblems\\Subarraywithgivensum.cpp","tests":[{"id":1654460181931,"input":"5 12\n1 2 3 7 5","output":"2 4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DS-And-Algo\\ArrayProblems\\Subarraywithgivensum.cpp","group":"local","local":true}
