@@ -1,0 +1,5 @@
+whenever we do a right shift(>>) operation we divide 
+the number by 2.
+Ex. 10>>3
+(0001) = (1)
+10/2=5/2=2/2=1
