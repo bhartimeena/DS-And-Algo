@@ -1,6 +1,5 @@
 //something wrong here again
 
-
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -32,8 +31,6 @@ void print(Node* &head){
 
 }
 
-
-
 //print the length of the linked list
 int getlength(Node* head){
     int len = 0;
@@ -45,7 +42,6 @@ int getlength(Node* head){
     }
     return len;
 
-
 }
 
 void insertAtHead(Node* &tail,Node* &head,int d){
@@ -53,7 +49,7 @@ void insertAtHead(Node* &tail,Node* &head,int d){
         Node* temp = new Node(d);
         head = temp;
         tail = temp;
-        
+
     }
     else{
         Node* temp = new Node(d);
@@ -62,7 +58,7 @@ void insertAtHead(Node* &tail,Node* &head,int d){
     head = temp;
 
     }
-    
+
 }
 
 void insertAtTail(Node* &head,Node* tail,int d){
@@ -78,11 +74,11 @@ void insertAtTail(Node* &head,Node* tail,int d){
     temp->prev = tail;
     tail = temp;
     }
-    
+
 }
 
 void insertAtPosition(Node* &tail,Node* &head,int position ,int d){
-    
+
     //insert at  start or the first position
     if(position==1){
         insertAtHead(tail,head,d);
@@ -113,8 +109,6 @@ void insertAtPosition(Node* &tail,Node* &head,int position ,int d){
     nodeToInsert -> prev = temp;
 }
 
-
-
 int main(){
     // Node* node1 = new Node(10);
       // head poiinterd to node1
@@ -140,14 +134,15 @@ int main(){
 
     insertAtPosition(tail,head,2,100);
     print(head);
-    cout<<" head "<<head->data<<endl;
-    cout<<" tail "<<tail->data<<endl;
+    cout<<" head "<<head -> data<<endl;
+    cout<<" tail "<<tail -> data<<endl;
     insertAtPosition(tail,head,1,200);
     print(head);
 
-    cout<<" head "<<head->data<<endl;
-    cout<<" tail "<<tail->data<<endl;
+    cout<<" head "<<head -> data<<endl;
+    cout<<" tail "<<tail -> data<<endl;
     insertAtPosition(tail,head,6,8800);
     print(head);
 
 }
+
